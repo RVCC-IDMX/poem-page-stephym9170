@@ -36,6 +36,11 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   color: #000080;
+  background-color: #1faee6;
+  text-align: center;
+  border: 5px solid #000080;
+  font-family: 'Source Sans Pro';
+  font-size: 18pt;
 }
 
 /* A elements that don't have a class get default styles */
@@ -46,8 +51,15 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture {
-  max-width: 100%;
+  max-width: 35%;
   display: block;
+}
+
+h3 {
+  text-align: left;
+}
+#hero {
+  text-align: center;
 }
 
 /* Inherit fonts for inputs and buttons */
